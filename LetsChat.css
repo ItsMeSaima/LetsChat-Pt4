@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Palanquin:wght@300&display=swap');
+body{
+    background-image: url("https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg");
+   background-size: cover;
+    font-family:tahoma;
+}
+
+.login_div
+{
+	background-color: white;
+    opacity: 0.9;
+    margin-top: 80px;
+    padding:20px;
+    border-radius:30px;
+    border-style:dotted;
+    width:497px;
+}
+
+#logo{
+    width:100px;
+    height:100px;
+}
+
+h1{
+    font-size:70px;
+    font-family: balsamiq sans;
+}
+
+label{
+    font-family: balsamiq sans;
+font-size: 27px;
+font-weight: bold;
+}
+
+h3 {
+    font-style: italic;
+    font-family: palanquin;
+    font-size: 25px;
+}
+
+#Login_button{
+    width:140px;
+    height:42px;
+    margin-top:20px;
+    font-size:21px;
+    font-family:balsamiq sans;
+    border-radius:5px;
+    box-shadow: none;
+    background-color: rgb(9, 110, 204);
+    background: linear-gradient(0deg, rgb(9, 110, 204) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+    color: white;
+}
+
+#Login_button:hover{
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgb(10, 121, 224) 0%,rgb(12, 28, 199)  100%);
+    cursor:pointer;
+ }
+
+#username{
+   height:29px; 
+   font-family:palanquin;
+   font-size:18px;
+border-radius: 5px;
+border-width: thin;
+border-color: rgb(21, 160, 240);
+}
+
+img {
+    height: 110px;
+}

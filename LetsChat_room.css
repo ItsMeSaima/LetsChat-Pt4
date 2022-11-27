@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Palanquin:wght@300&display=swap');
+ body
+{
+  height: 100%;
+  background: linear-gradient(#fafcfd,#a5e7ff, #e7f8ff, #dcf3ff);
+	background-size: 200%;
+	background-position:center;
+    color:black !important;
+font-size: 20px;
+}
+
+
+
+
+
+.header
+{
+	color: black;
+    font-family:balsamiq sans;
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+
+#room_name
+{
+	cursor: pointer;
+	font-size: 18px;
+   font-family: balsamiq sans;
+}
+
+
+#logout
+{
+   font-size: 20px; 
+    float: right;
+    background-color: rgba(243, 92, 92);
+    color:white;
+    border-color: whitesmoke;
+   border-radius: 5px;
+   }
+#logout:hover{
+    background: linear-gradient(rgb(243, 92, 92), rgb(245, 95, 95));
+}
+
+
+#output
+{
+	padding: 10px; 
+    width:80%;
+    background:rgba(255,255,255,0.8);
+    border-radius: 15px;
+   }
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: black;
+    font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+   
+}
+.input_div_message_page label
+{
+	color: black;
+  
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+
+.message_h4
+{
+	padding-left:5px;
+    color:grey;
+}
+
+img{
+	border-radius: 50px;
+}
+
+label{
+    font-family: palanquin;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: palanquin;
+    font-size: 25px;
+}
+    
+#add_room{
+    width:105px;
+    height:42px;
+    margin-top:20px;
+    font-size:17px;
+    font-family:balsamiq sans;
+    border-radius:5px;
+    box-shadow: none;
+    border-style: dotted;
+     border-color: black;
+     background: linear-gradient(0deg, rgb(83, 200, 255) 0%, rgb(51, 167, 221) 100%);
+   }
+
+#welcoming_user{
+    font-size: 23px;
+}
